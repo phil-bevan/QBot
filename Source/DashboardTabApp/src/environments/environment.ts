@@ -5,7 +5,7 @@ export const environment = {
     authConfig: {
         instance: "https://login.microsoftonline.com/",
         tenantId: "14d57f01-ed3c-44c1-ad8a-48174f1e8e62",
-        clientId: "b418c0e7-a5f1-4fee-a577-6007aeb5babd",
+        clientId: "8237bf74-f859-496f-9f85-d809a821f2f0",
         redirectUri: "/app-silent-end",
         cacheLocation: "localStorage",
         navigateToLoginRequestUrl: false,
