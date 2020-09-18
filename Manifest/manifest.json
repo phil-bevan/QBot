@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "b418c0e7-a5f1-4fee-a577-6007aeb5babd",
+  "id": "ec98b9b9-8418-47ce-bd91-c91d16fbe063",
   "packageName": "qbot",
   "developer": {
     "name": "UNSW Sydney",
@@ -34,7 +34,7 @@
     ],
   "bots": [
     {
-      "botId": "b418c0e7-a5f1-4fee-a577-6007aeb5babd",
+      "botId": "ec98b9b9-8418-47ce-bd91-c91d16fbe063",
       "scopes": [
         "team"
       ]
@@ -52,5 +52,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qbotpbi-dashboard.azurewebsites.net", "qbotpbi-questions.azurewebsites.net", "qbotpbi-api.azurewebsites.net" ]
+  "validDomains": [ "qbotpbi-dashboard.azurewebsites.net", "qbotpbi-questions.azurewebsites.net", "qbotpbi.azurewebsites.net" ]
 }

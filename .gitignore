@@ -408,3 +408,4 @@ baseline.json
 /Source/DashboardTabApp/Properties
 /Manifest/azureDeploy/azureDeploy.zip
 Source/Microsoft.Teams.Apps.QBot.FunctionApp/Properties/ServiceDependencies/qbot-funcapp - Zip Deploy/profile.arm.json
+Source/Microsoft.Teams.Apps.QBot.FunctionApp/Properties/ServiceDependencies/qbotpbi-function - Zip Deploy/profile.arm.json
