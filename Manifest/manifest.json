@@ -1,56 +1,56 @@
 {
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.5",
-  "version": "1.0.0",
-  "id": "ec98b9b9-8418-47ce-bd91-c91d16fbe063",
-  "packageName": "qbot",
-  "developer": {
-    "name": "UNSW Sydney",
-    "websiteUrl": "https://www.unsw.edu.au/QBot",
-    "privacyUrl": "https://www.unsw.edu.au/QBot/privacy",
-    "termsOfUseUrl": "https://www.unsw.edu.au/QBot/tou"
-  },
-  "icons": {
-    "outline": "Outline.png",
-    "color": "Color.png"
-  },
-  "name": {
-    "short": "Question",
-    "full": "Question - The Community Learning App"
-  },
-  "description": {
-    "short": "QBot",
-    "full": "QBot keeps track of answered and unanswered questions, sends notifications to tutors and teachers in charge, and dynamically constructs its own knowledge database on the subject to help suggest answers in future. Just tag @Question in the conversations tab of your class team."
-  },
-  "accentColor": "#6264A7",
-  "configurableTabs": [
-      {
-        "configurationUrl": "https://qbotpbi-questions.azurewebsites.net/config?upn={loginHint}&tid={tid}&gid={groupId}&cname={channelName}",
-        "canUpdateConfiguration": true,
-        "scopes": [
-          "team"
-        ]
-      }
-    ],
-  "bots": [
-    {
-      "botId": "ec98b9b9-8418-47ce-bd91-c91d16fbe063",
-      "scopes": [
-        "team"
-      ]
-    }
-  ],
-  "staticTabs": [
-    {
-      "entityId": "DashboardTab",
-      "name": "Dashboard",
-      "contentUrl": "https://qbotpbi-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
-      "scopes": [ "personal" ]
-    }
-  ],
-  "permissions": [
-    "identity",
-    "messageTeamMembers"
-  ],
-  "validDomains": [ "qbotpbi-dashboard.azurewebsites.net", "qbotpbi-questions.azurewebsites.net", "qbotpbi.azurewebsites.net" ]
+    "$schema":  "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion":  "1.5",
+    "version":  "1.0.0",
+    "id":  "dcc0e23e-627f-4516-a302-6b6a2821c05f",
+    "packageName":  "qbot",
+    "developer":  {
+                      "name":  "UNSW Sydney",
+                      "websiteUrl":  "https://www.unsw.edu.au/QBot",
+                      "privacyUrl":  "https://www.unsw.edu.au/QBot/privacy",
+                      "termsOfUseUrl":  "https://www.unsw.edu.au/QBot/tou"
+                  },
+    "icons":  {
+                  "outline":  "Outline.png",
+                  "color":  "Color.png"
+              },
+    "name":  {
+                 "short":  "Question2",
+                 "full":  "Question - The Community Learning App"
+             },
+    "description":  {
+                        "short":  "QBot",
+                        "full":  "QBot keeps track of answered and unanswered questions, sends notifications to tutors and teachers in charge, and dynamically constructs its own knowledge database on the subject to help suggest answers in future. Just tag @Question in the conversations tab of your class team."
+                    },
+    "accentColor":  "#6264A7",
+    "configurableTabs":  [
+                             {
+                                 "configurationUrl":  "https://qbotpbzz-questions.azurewebsites.net/config?upn={loginHint}&tid={tid}&gid={groupId}&cname={channelName}",
+                                 "canUpdateConfiguration":  true,
+                                 "scopes":  ["team"]
+                             }
+                         ],
+    "bots":  [
+                 {
+                     "botId":  "dcc0e23e-627f-4516-a302-6b6a2821c05f",
+                     "scopes":  ["team"]
+                 }
+             ],
+    "staticTabs":  [
+                       {
+                           "entityId":  "DashboardTab",
+                           "name":  "Dashboard",
+                           "contentUrl":  "https://qbotpbzz-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
+                           "scopes":  ["personal"]
+                       }
+                   ],
+    "permissions":  [
+                        "identity",
+                        "messageTeamMembers"
+                    ],
+    "validDomains":  [
+                         "qbotpbzz-dashboard.azurewebsites.net",
+                         "qbotpbzz-questions.azurewebsites.net",
+                         "qbotpbzz.azurewebsites.net"
+                     ]
 }

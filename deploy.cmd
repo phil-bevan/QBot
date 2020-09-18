@@ -1,6 +1,4 @@
 @if "%SCM_TRACE_LEVEL%" NEQ "4" @echo off
-:: Kludge to force a delay while testing
-ping 192.0.2.1 -n 1 -w 600000 >nul
 IF "%SITE_ROLE%" == "bot" (
   deploy.bot.cmd
 ) ELSE (
