@@ -2,7 +2,7 @@
     "$schema":  "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
     "manifestVersion":  "1.5",
     "version":  "1.0.0",
-    "id":  "dcc0e23e-627f-4516-a302-6b6a2821c05f",
+    "id":  "5b961680-a81d-4add-9b88-0972884c8c9d",
     "packageName":  "qbot",
     "developer":  {
                       "name":  "UNSW Sydney",
@@ -15,7 +15,7 @@
                   "color":  "Color.png"
               },
     "name":  {
-                 "short":  "Question2",
+                 "short":  "QuestionX",
                  "full":  "Question - The Community Learning App"
              },
     "description":  {
@@ -32,7 +32,7 @@
                          ],
     "bots":  [
                  {
-                     "botId":  "dcc0e23e-627f-4516-a302-6b6a2821c05f",
+                     "botId":  "5b961680-a81d-4add-9b88-0972884c8c9d",
                      "scopes":  ["team"]
                  }
              ],
