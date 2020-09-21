@@ -2,7 +2,7 @@
     "$schema":  "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
     "manifestVersion":  "1.5",
     "version":  "1.0.0",
-    "id":  "5b961680-a81d-4add-9b88-0972884c8c9d",
+    "id":  "c8ddf274-c445-4508-bbd1-cbca03ba7a42",
     "packageName":  "qbot",
     "developer":  {
                       "name":  "UNSW Sydney",
@@ -15,7 +15,7 @@
                   "color":  "Color.png"
               },
     "name":  {
-                 "short":  "QuestionX",
+                 "short":  "QuestionYY",
                  "full":  "Question - The Community Learning App"
              },
     "description":  {
@@ -25,23 +25,23 @@
     "accentColor":  "#6264A7",
     "configurableTabs":  [
                              {
-                                 "configurationUrl":  "https://qbotpbzz-questions.azurewebsites.net/config?upn={loginHint}&tid={tid}&gid={groupId}&cname={channelName}",
+                                 "configurationUrl":  "https://qbotpbbb-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
                                  "canUpdateConfiguration":  true,
-                                 "scopes":  ["team"]
+                                 "scopes":  "team"
                              }
                          ],
     "bots":  [
                  {
-                     "botId":  "5b961680-a81d-4add-9b88-0972884c8c9d",
-                     "scopes":  ["team"]
+                     "botId":  "c8ddf274-c445-4508-bbd1-cbca03ba7a42",
+                     "scopes":  "team"
                  }
              ],
     "staticTabs":  [
                        {
                            "entityId":  "DashboardTab",
                            "name":  "Dashboard",
-                           "contentUrl":  "https://qbotpbzz-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
-                           "scopes":  ["personal"]
+                           "contentUrl":  "https://qbotpbbb-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
+                           "scopes":  "personal"
                        }
                    ],
     "permissions":  [
@@ -49,8 +49,8 @@
                         "messageTeamMembers"
                     ],
     "validDomains":  [
-                         "qbotpbzz-dashboard.azurewebsites.net",
-                         "qbotpbzz-questions.azurewebsites.net",
-                         "qbotpbzz.azurewebsites.net"
+                         "qbotpbbb-dashboard.azurewebsites.net",
+                         "qbotpbbb-questions.azurewebsites.net",
+                         "qbotpbbb-api.azurewebsites.net"
                      ]
 }
