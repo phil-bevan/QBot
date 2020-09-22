@@ -2,7 +2,7 @@
     "$schema":  "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
     "manifestVersion":  "1.5",
     "version":  "1.0.0",
-    "id":  "87fe38b8-6395-4ab5-9fad-e4ac20f7c63f",
+    "id":  "60350023-62d3-4e36-a496-cae7801c753c",
     "packageName":  "qbot",
     "developer":  {
                       "name":  "UNSW Sydney",
@@ -15,7 +15,7 @@
                   "color":  "Color.png"
               },
     "name":  {
-                 "short":  "QuestionBB",
+                 "short":  "QuestionDemo",
                  "full":  "Question - The Community Learning App"
              },
     "description":  {
@@ -25,14 +25,14 @@
     "accentColor":  "#6264A7",
     "configurableTabs":  [
                              {
-                                 "configurationUrl":  "https://qbotpaaa-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
+                                 "configurationUrl":  "https://qbotdemo-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
                                  "canUpdateConfiguration":  true,
                                  "scopes":  ["team"]
                              }
                          ],
     "bots":  [
                  {
-                     "botId":  "87fe38b8-6395-4ab5-9fad-e4ac20f7c63f",
+                     "botId":  "60350023-62d3-4e36-a496-cae7801c753c",
                      "scopes":  ["team"]
                  }
              ],
@@ -40,7 +40,7 @@
                        {
                            "entityId":  "DashboardTab",
                            "name":  "Dashboard",
-                           "contentUrl":  "https://qbotpaaa-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
+                           "contentUrl":  "https://qbotdemo-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
                            "scopes":  ["personal"]
                        }
                    ],
@@ -49,8 +49,8 @@
                         "messageTeamMembers"
                     ],
     "validDomains":  [
-                         "qbotpaaa-dashboard.azurewebsites.net",
-                         "qbotpaaa-questions.azurewebsites.net",
-                         "qbotpaaa-api.azurewebsites.net"
+                         "qbotdemo-dashboard.azurewebsites.net",
+                         "qbotdemo-questions.azurewebsites.net",
+                         "qbotdemo-api.azurewebsites.net"
                      ]
 }
