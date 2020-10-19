@@ -2,7 +2,7 @@
     "$schema":  "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
     "manifestVersion":  "1.5",
     "version":  "1.0.0",
-    "id":  "c00fc84e-11e2-403c-b322-d8ddab416d7f",
+    "id":  "d0a05f61-cd2e-4bab-b6b2-5256cc1d5cd2",
     "packageName":  "qbot",
     "developer":  {
                       "name":  "UNSW Sydney",
@@ -25,23 +25,23 @@
     "accentColor":  "#6264A7",
     "configurableTabs":  [
                              {
-                                 "configurationUrl":  "https://qbotabc-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
+                                 "configurationUrl":  "https://qbotics-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
                                  "canUpdateConfiguration":  true,
-                                 "scopes":  ["team"]
+                                 "scopes":  "team"
                              }
                          ],
     "bots":  [
                  {
-                     "botId":  "c00fc84e-11e2-403c-b322-d8ddab416d7f",
-                     "scopes":  ["team"]
+                     "botId":  "d0a05f61-cd2e-4bab-b6b2-5256cc1d5cd2",
+                     "scopes":  "team"
                  }
              ],
     "staticTabs":  [
                        {
                            "entityId":  "DashboardTab",
                            "name":  "Dashboard",
-                           "contentUrl":  "https://qbotabc-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
-                           "scopes":  ["personal"]
+                           "contentUrl":  "https://qbotics-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
+                           "scopes":  "personal"
                        }
                    ],
     "permissions":  [
@@ -49,8 +49,8 @@
                         "messageTeamMembers"
                     ],
     "validDomains":  [
-                         "qbotabc-dashboard.azurewebsites.net",
-                         "qbotabc-questions.azurewebsites.net",
-                         "qbotabc-api.azurewebsites.net"
+                         "qbotics-dashboard.azurewebsites.net",
+                         "qbotics-questions.azurewebsites.net",
+                         "qbotics-api.azurewebsites.net"
                      ]
 }

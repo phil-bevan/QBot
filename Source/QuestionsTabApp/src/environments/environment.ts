@@ -1,12 +1,12 @@
 export const environment = {
     production: false,
-    apiBaseUrl: "https://qbotdemo-api.azurewebsites.net/api/Request/",
-    selfUrl: "https://qbotdemo-questions.azurewebsites.net",
+    apiBaseUrl: "https://qboticsai-api.azurewebsites.net/api/Request/",
+    selfUrl: "https://qboticsai-questions.azurewebsites.net",
 
     authConfig: {
         instance: "https://login.microsoftonline.com/",
         tenantId: "66340438-908e-4dad-ba32-eba8cec70bb7",
-        clientId: "9e670e54-7a3d-4f6a-a20e-9b7c932c0368",
+        clientId: "938359dd-a354-4ead-8863-5473455aed57",
         redirectUri: "/app-silent-end",
         cacheLocation: "localStorage",
         navigateToLoginRequestUrl: false,
