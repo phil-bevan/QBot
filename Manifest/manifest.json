@@ -15,7 +15,7 @@
                   "color":  "Color.png"
               },
     "name":  {
-                 "short":  "QuestionDemo",
+                 "short":  "QuestionBot",
                  "full":  "Question - The Community Learning App"
              },
     "description":  {
@@ -27,13 +27,13 @@
                              {
                                  "configurationUrl":  "https://qbotabc-questions.azurewebsites.net/config?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026cname={channelName}",
                                  "canUpdateConfiguration":  true,
-                                 "scopes":  "team"
+                                 "scopes":  ["team"]
                              }
                          ],
     "bots":  [
                  {
                      "botId":  "c00fc84e-11e2-403c-b322-d8ddab416d7f",
-                     "scopes":  "team"
+                     "scopes":  ["team"]
                  }
              ],
     "staticTabs":  [
@@ -41,7 +41,7 @@
                            "entityId":  "DashboardTab",
                            "name":  "Dashboard",
                            "contentUrl":  "https://qbotabc-dashboard.azurewebsites.net/home?upn={loginHint}\u0026tid={tid}\u0026gid={groupId}\u0026uid={userObjectId}",
-                           "scopes":  "personal"
+                           "scopes":  ["personal"]
                        }
                    ],
     "permissions":  [
