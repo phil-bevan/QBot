@@ -351,7 +351,7 @@ namespace Microsoft.Teams.Apps.QBot.Bot.Controllers
                 var authService = new AuthService(ServiceHelper.Authority);
 
                 // BUG: On some EDU tenants, listing group members return nothing when authenticated using Delegate permissions
-                var authResult = await authService.AuthenticateSilently(ServiceHelper.GraphResource, "Application", true);
+                var authResult = await authService.AuthenticateSilently(ServiceHelper.GraphResource);
                 if (authResult != null)
                 {
                     var graphService = new GraphService();

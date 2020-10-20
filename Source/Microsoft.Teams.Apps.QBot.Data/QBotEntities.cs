@@ -23,8 +23,10 @@ namespace Microsoft.Teams.Apps.QBot.Data
     {
         public EntitiesConfig()
         {
-            SetProviderServices("System.Data.EntityClient",
-            SqlProviderServices.Instance);
+            SetProviderServices(
+                "System.Data.EntityClient",
+                SqlProviderServices.Instance
+                );
             SetDefaultConnectionFactory(new SqlConnectionFactory());
         }
     }
